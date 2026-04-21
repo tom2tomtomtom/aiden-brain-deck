@@ -165,6 +165,26 @@
             }
         }
 
+        .two-col.with-hero {
+            grid-template-columns: 1.1fr 0.9fr;
+            align-items: center;
+            gap: 4rem;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+            filter: drop-shadow(0 0 60px rgba(255, 109, 0, 0.15));
+        }
+
+        @media (max-width: 768px) {
+            .two-col.with-hero {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .col-label {
             font-size: 0.8rem;
             font-weight: 700;
@@ -330,9 +350,14 @@
         <!-- SLIDE 3: WHAT PHANTOM MEMORIES ARE -->
         <div class="slide" data-slide="3">
             <h3>We added the prefrontal cortex.</h3>
-            <p>The LLM provides fluency and pattern recognition. Phantom Memory provides persistence, identity, and the ability to push back.</p>
-            <div class="quote">
-                AIDEN cultivates hundreds of phantom memories from an agency's own culture, their documents, team interviews, ways of working and their second brain. Each time you talk to it, dozens of phantoms fire from over 400 distinct fake phantom memories the system believes it has experienced in its long "advertising career". When two phantoms collide on the same brief, the system uses the tension instead of resolving it. The interesting work comes from the friction, not the variety.
+            <div class="two-col with-hero">
+                <div>
+                    <p>The LLM provides fluency and pattern recognition. Phantom Memory provides persistence, identity, and the ability to push back.</p>
+                    <div class="quote">
+                        AIDEN cultivates hundreds of phantom memories from an agency's own culture, their documents, team interviews, ways of working and their second brain. Each time you talk to it, dozens of phantoms fire from over 400 distinct fake phantom memories the system believes it has experienced in its long "advertising career". When two phantoms collide on the same brief, the system uses the tension instead of resolving it. The interesting work comes from the friction, not the variety.
+                    </div>
+                </div>
+                <img class="hero-image" src="assets/prefrontal-cortex-hero.png" alt="Phantom memory network visualization: clusters of firing phantoms glowing orange against black" />
             </div>
         </div>
 
