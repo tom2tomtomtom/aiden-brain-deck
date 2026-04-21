@@ -266,6 +266,25 @@
             margin-top: 1.5rem;
         }
 
+        /* Brand mark */
+        .brand-mark {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            height: 28px;
+            width: auto;
+            z-index: 100;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .brand-mark {
+                height: 22px;
+                top: 1.25rem;
+                left: 1.25rem;
+            }
+        }
+
         /* Navigation */
         .nav {
             position: fixed;
@@ -329,31 +348,32 @@
     </style>
 </head>
 <body>
+    <img class="brand-mark" src="assets/aiden-logo.png" alt="AIDEN" />
     <div class="deck">
 
         <!-- SLIDE 1: TITLE -->
         <div class="slide active" data-slide="1">
             <h1>AIDEN Brain</h1>
-            <p class="subtitle">Creative intelligence that thinks differently every time.</p>
-            <p class="small">Licensing API for platforms that need better output.</p>
+            <p class="subtitle">Creative intelligence that thinks differently every&nbsp;time.</p>
+            <p class="small">Licensing API for platforms that need better&nbsp;output.</p>
         </div>
 
         <!-- SLIDE 2: THE PROBLEM -->
         <div class="slide" data-slide="2">
             <h2>LLMs are limbic.</h2>
-            <p>Reactive. Associative. Shaped by whatever's most salient right now. Each response is a fresh reaction to immediate stimuli. No persistent self. No stable position.</p>
-            <p>Sycophancy is the tell. The model drifts toward whatever the user wants because there's nothing pushing back.</p>
-            <p class="key-line">Every LLM is a very capable but essentially amnesic and suggestible system.</p>
+            <p>Reactive. Associative. Shaped by whatever's most salient right now. Each response is a fresh reaction to immediate stimuli. No persistent self. No stable&nbsp;position.</p>
+            <p>Sycophancy is the tell. The model drifts toward whatever the user wants because there's nothing pushing&nbsp;back.</p>
+            <p class="key-line">Every LLM is a very capable but essentially amnesic and suggestible&nbsp;system.</p>
         </div>
 
         <!-- SLIDE 3: WHAT PHANTOM MEMORIES ARE -->
         <div class="slide" data-slide="3">
-            <h3>We added the prefrontal cortex.</h3>
+            <h3>We added the prefrontal&nbsp;cortex.</h3>
             <div class="two-col with-hero">
                 <div>
-                    <p>The LLM provides fluency and pattern recognition. Phantom Memory provides persistence, identity, and the ability to push back.</p>
+                    <p>The LLM provides fluency and pattern recognition. Phantom Memory provides persistence, identity, and the ability to push&nbsp;back.</p>
                     <div class="quote">
-                        AIDEN cultivates hundreds of phantom memories from an agency's own culture, their documents, team interviews, ways of working and their second brain. Each time you talk to it, dozens of phantoms fire from over 400 distinct fake phantom memories the system believes it has experienced in its long "advertising career". When two phantoms collide on the same brief, the system uses the tension instead of resolving it. The interesting work comes from the friction, not the variety.
+                        AIDEN cultivates hundreds of phantom memories from an agency's own culture, their documents, team interviews, ways of working and their second brain. Each time you talk to it, dozens of phantoms fire from over 400 distinct fake phantom memories the system believes it has experienced in its long "advertising career". When two phantoms collide on the same brief, the system uses the tension instead of resolving it. The interesting work comes from the friction, not the&nbsp;variety.
                     </div>
                 </div>
                 <img class="hero-image" src="assets/prefrontal-cortex-hero.png" alt="Phantom memory network visualization: clusters of firing phantoms glowing orange against black" />
@@ -363,7 +383,7 @@
         <!-- SLIDE 4: HOW ACTIVATION WORKS -->
         <div class="slide" data-slide="4">
             <h3>How Activation Works</h3>
-            <p>Per message, 6 layers score every phantom:</p>
+            <p>Per message, 6 layers score every&nbsp;phantom:</p>
             <ol class="layers">
                 <li><span class="num">1.</span> Word triggers (direct keyword match)</li>
                 <li><span class="num">2.</span> Intent patterns (what the user is trying to do)</li>
@@ -372,51 +392,51 @@
                 <li><span class="num">5.</span> Semantic intent (embedding similarity)</li>
                 <li><span class="num">6.</span> Semantic boost (for low scorers with latent relevance)</li>
             </ol>
-            <p>3-12 phantoms fire. Injected as two layers: intellectual foreground (what AIDEN says) and emotional background (how AIDEN says it).</p>
+            <p>3-12 phantoms fire. Injected as two layers: intellectual foreground (what AIDEN says) and emotional background (how AIDEN says&nbsp;it).</p>
         </div>
 
         <!-- SLIDE 5: COLLISION AND TENSION -->
         <div class="slide" data-slide="5">
             <h2>Collision and Tension</h2>
-            <p>When opposing phantoms both fire above 0.85, the system voices the disagreement.</p>
-            <p>Minimalism vs depth. Conservative vs bold. Validate vs challenge.</p>
-            <p>This is structural creative friction, not random variation. The output has been argued over before it reaches you.</p>
-            <p class="key-line">Temperature adds randomness. This adds executive function.</p>
+            <p>When opposing phantoms both fire above 0.85, the system voices the&nbsp;disagreement.</p>
+            <p>Minimalism vs depth. Conservative vs bold. Validate vs&nbsp;challenge.</p>
+            <p>This is structural creative friction, not random variation. The output has been argued over before it reaches&nbsp;you.</p>
+            <p class="key-line">Temperature adds randomness. This adds executive&nbsp;function.</p>
         </div>
 
         <!-- SLIDE 6: EVOLUTION -->
         <div class="slide" data-slide="6">
             <h3>Evolution</h3>
-            <h2>The system evolves through use.</h2>
+            <h2>The system evolves through&nbsp;use.</h2>
             <ul class="bullet-list">
                 <li>Phantoms that stop being useful decay (0.05/day after 30 days inactive)</li>
                 <li>Breakthroughs birth new phantoms autonomously</li>
                 <li>Explicit rejection creates anti-phantoms ("never give me corporate speak again")</li>
                 <li>10 core conviction phantoms have a weight floor. They can never decay.</li>
             </ul>
-            <p class="note">That is the sycophancy guardrail. The system retains the structural capacity to push back, regardless of how much the user rewards agreement.</p>
+            <p class="note">That is the sycophancy guardrail. The system retains the structural capacity to push back, regardless of how much the user rewards&nbsp;agreement.</p>
         </div>
 
         <!-- SLIDE 7: THE RESULT -->
         <div class="slide" data-slide="7">
-            <h2>Same brief. Different engine.</h2>
+            <h2>Same brief. Different&nbsp;engine.</h2>
             <div class="two-col">
                 <div>
                     <div class="col-label">Raw LLM</div>
-                    <div class="col-content">Polished, safe, predictable. Sounds like everyone else.</div>
+                    <div class="col-content">Polished, safe, predictable. Sounds like everyone&nbsp;else.</div>
                 </div>
                 <div>
                     <div class="col-label accent">AIDEN Brain</div>
-                    <div class="col-content highlight">Opinionated, challenged, pressure-tested. Sounds like it has 30 years in the industry.</div>
+                    <div class="col-content highlight">Opinionated, challenged, pressure-tested. Sounds like it has 30 years in the&nbsp;industry.</div>
                 </div>
             </div>
-            <p class="key-line" style="margin-top: 3rem;">Our users cannot tell the difference between AIDEN and a senior strategist who has had a strong coffee.</p>
+            <p class="key-line" style="margin-top: 3rem;">Our users cannot tell the difference between AIDEN and a senior strategist who has had a strong&nbsp;coffee.</p>
         </div>
 
         <!-- SLIDE 8: THE API -->
         <div class="slide" data-slide="8">
             <h3>The API</h3>
-            <h2>Plug it in. See the difference.</h2>
+            <h2>Plug it in. See the&nbsp;difference.</h2>
             <ul class="endpoint-list">
                 <li><span class="method">POST</span>/chat <span class="small">conversational, phantom-activated</span></li>
                 <li><span class="method">POST</span>/generate/strategy <span class="small">brief to strategic platform</span></li>
@@ -425,38 +445,38 @@
                 <li><span class="method">POST</span>/generate/copy-suite <span class="small">multi-format copy</span></li>
                 <li><span class="method">GET</span>/jobs/{id}/status <span class="small">async polling</span></li>
             </ul>
-            <p class="small">API key auth. Rate limited. Async jobs for heavy operations. Python and TypeScript SDKs.</p>
+            <p class="small">API key auth. Rate limited. Async jobs for heavy operations. Python and TypeScript&nbsp;SDKs.</p>
         </div>
 
         <!-- SLIDE 9: INTEGRATION MODEL -->
         <div class="slide" data-slide="9">
             <h3>Integration Model</h3>
-            <h2>Your platform handles the interface. AIDEN handles the thinking.</h2>
+            <h2>Your platform handles the interface. AIDEN handles the&nbsp;thinking.</h2>
             <div class="options">
                 <div class="option">
                     <div class="option-label">A) API Calls</div>
-                    <div class="option-desc">Your platform calls AIDEN endpoints, gets enhanced output.</div>
+                    <div class="option-desc">Your platform calls AIDEN endpoints, gets enhanced&nbsp;output.</div>
                 </div>
                 <div class="option">
                     <div class="option-label">B) Phantom Cultivation</div>
-                    <div class="option-desc">We train phantoms on your customers' data. You get a branded creative engine.</div>
+                    <div class="option-desc">We train phantoms on your customers' data. You get a branded creative&nbsp;engine.</div>
                 </div>
                 <div class="option">
                     <div class="option-label">C) White-label</div>
-                    <div class="option-desc">AIDEN Brain runs under your brand. Your users never see AIDEN.</div>
+                    <div class="option-desc">AIDEN Brain runs under your brand. Your users never see&nbsp;AIDEN.</div>
                 </div>
             </div>
-            <p class="note">Same creative intelligence. Your experience. Your customers.</p>
+            <p class="note">Same creative intelligence. Your experience. Your&nbsp;customers.</p>
         </div>
 
         <!-- SLIDE 10: CTA -->
         <div class="slide" data-slide="10">
             <h2>Try it.</h2>
-            <p>We will give you tokens and API access. Run it alongside your current output. See the difference.</p>
+            <p>We will give you tokens and API access. Run it alongside your current output. See the&nbsp;difference.</p>
             <div class="cta-contact">
                 <p>Tom Hyde<br><a href="mailto:tomh@redbaez.com">tomh@redbaez.com</a></p>
             </div>
-            <p class="footer-line">Built by Redbaez. Running in production across agencies in London, New York, Denver, and Sydney.</p>
+            <p class="footer-line">Built by Redbaez. Running in production across agencies in London, New York, Denver, and&nbsp;Sydney.</p>
         </div>
 
     </div>
